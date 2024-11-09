@@ -1,4 +1,5 @@
 # Defining Key Name for connection
 variable "keyname" {
-  default     = "replace with your keypair name" 
+  default     = "mytest_keypair" 
+  description = "Name of AWS key pair"
 }
